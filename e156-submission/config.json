@@ -1,0 +1,57 @@
+{
+  "title": "CT.gov Evidence Visibility Gap",
+  "slug": "ctgov-evidence-visibility-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "path": "C:\\Projects\\ctgov-evidence-visibility-gap",
+  "type": "methods",
+  "primary_estimand": "Ghost-protocol rate among eligible older closed interventional studies",
+  "summary": "A standalone E156 project on how often older CT.gov studies show results, publications, both, or neither.",
+  "body": "How visible is older interventional trial evidence in ClinicalTrials.gov when posted results and linked publications are read together rather than separately, actually? We analysed 249,507 closed interventional studies with primary completion at least two years before March 29, 2026, drawn from the full 578,109-study registry snapshot. Each eligible study was placed into one of four evidence states: results plus publication, results without publication, publication without results, or neither. Across eligible older studies, 42.7 percent showed neither posted results nor a linked publication, whereas only 13.7 percent showed both. Publication-only visibility remained common at 30.0 percent, and sponsor classes diverged sharply, with OTHER_GOV worst on ghost protocols at 49.1 percent while FED led on full visibility at 33.5 percent. Reading results tabs and linked papers together shows that older registry evidence is more often partially or wholly invisible than fully visible. These states measure registry-visible evidence coverage using internal CT.gov publication links, not exhaustive external bibliometric matching.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How visible is older interventional trial evidence in ClinicalTrials.gov when posted results and linked publications are read together rather than separately, actually?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 closed interventional studies with primary completion at least two years before March 29, 2026, drawn from the full 578,109-study registry snapshot."
+    },
+    {
+      "role": "Method",
+      "text": "Each eligible study was placed into one of four evidence states: results plus publication, results without publication, publication without results, or neither."
+    },
+    {
+      "role": "Primary result",
+      "text": "Across eligible older studies, 42.7 percent showed neither posted results nor a linked publication, whereas only 13.7 percent showed both."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Publication-only visibility remained common at 30.0 percent, and sponsor classes diverged sharply, with OTHER_GOV worst on ghost protocols at 49.1 percent while FED led on full visibility at 33.5 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Reading results tabs and linked papers together shows that older registry evidence is more often partially or wholly invisible than fully visible."
+    },
+    {
+      "role": "Boundary",
+      "text": "These states measure registry-visible evidence coverage using internal CT.gov publication links, not exhaustive external bibliometric matching."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Evidence Visibility Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot",
+    "code": "https://github.com/mahmood726-cyber/ctgov-evidence-visibility-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "author@example.com",
+  "references": [
+    "ClinicalTrials.gov API v2. National Library of Medicine. Accessed March 29, 2026.",
+    "Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement. BMJ. 2021;372:n71.",
+    "Borenstein M, Hedges LV, Higgins JPT, Rothstein HR. Introduction to Meta-Analysis. 2nd ed. Wiley; 2021."
+  ]
+}
