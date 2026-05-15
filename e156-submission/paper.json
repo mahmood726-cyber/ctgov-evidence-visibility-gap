@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov Evidence Visibility Gap",
+  "slug": "ctgov-evidence-visibility-gap",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "How visible is older interventional trial evidence in ClinicalTrials.gov when posted results and linked publications are read together rather than separately, actually? We analysed 249,507 closed interventional studies with primary completion at least two years before March 29, 2026, drawn from the full 578,109-study registry snapshot. Each eligible study was placed into one of four evidence states: results plus publication, results without publication, publication without results, or neither. Across eligible older studies, 42.7 percent showed neither posted results nor a linked publication, whereas only 13.7 percent showed both. Publication-only visibility remained common at 30.0 percent, and sponsor classes diverged sharply, with OTHER_GOV worst on ghost protocols at 49.1 percent while FED led on full visibility at 33.5 percent. Reading results tabs and linked papers together shows that older registry evidence is more often partially or wholly invisible than fully visible. These states measure registry-visible evidence coverage using internal CT.gov publication links, not exhaustive external bibliometric matching.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How visible is older interventional trial evidence in ClinicalTrials.gov when posted results and linked publications are read together rather than separately, actually?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 closed interventional studies with primary completion at least two years before March 29, 2026, drawn from the full 578,109-study registry snapshot."
+    },
+    {
+      "role": "Method",
+      "text": "Each eligible study was placed into one of four evidence states: results plus publication, results without publication, publication without results, or neither."
+    },
+    {
+      "role": "Primary result",
+      "text": "Across eligible older studies, 42.7 percent showed neither posted results nor a linked publication, whereas only 13.7 percent showed both."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Publication-only visibility remained common at 30.0 percent, and sponsor classes diverged sharply, with OTHER_GOV worst on ghost protocols at 49.1 percent while FED led on full visibility at 33.5 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "Reading results tabs and linked papers together shows that older registry evidence is more often partially or wholly invisible than fully visible."
+    },
+    {
+      "role": "Boundary",
+      "text": "These states measure registry-visible evidence coverage using internal CT.gov publication links, not exhaustive external bibliometric matching."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov Evidence Visibility Gap dashboard",
+    "data": "249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot",
+    "code": "https://github.com/mahmood726-cyber/ctgov-evidence-visibility-gap",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "Ghost-protocol rate among eligible older closed interventional studies",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
